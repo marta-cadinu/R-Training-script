@@ -1,7 +1,7 @@
 ##Please look at these solutions if you are stuck
 
 #Solutions below - saved as hidden objects
-.solution_3 <- 'setwd("Q:/RSH/Adhoc_Analysis/R/R L&D/R Practice")'
+.solution_3 <- 'setwd("Q:/RSH/Adhoc_Analysis/R/R L&D/R Practice Project")'
 .solution_4 <- 'install.packages("dplyr")
 library(dplyr)'
 .solution_5a <- 'YOUR_OBJECT_NAME <- 1:6'
@@ -16,6 +16,6 @@ sum(roll)'
                   cat("The die rolled to", paste(roll, collapse = ", "), "and the sum of the rolls is", paste(sum))
                   }
 rolling_dice()'
-.solution_7 <- 'df <- read_csv("Q:/RSH/Adhoc_Analysis/R/R L&D/R Practice/Practice data/Practice_data_to_load.csv")'
+.solution_7 <- 'df <- read_csv("Q:/RSH/Adhoc_Analysis/R/R L&D/R Practice Project/Practice data/Practice_data_to_load.csv")'
 .solution_8a <- 'glimpse(df)'
 .solution_8b <- 'mean(df[["Number of units"]])'
